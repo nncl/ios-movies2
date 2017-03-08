@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+	<Movie>
+		<title>Logan</title>
+		<categories>Action</categories>
+		<categories>Drama</categories>
+		<categories>Sci-Fi</categories>
+		<duration>2h 17min</duration>
+		<rating>8.7</rating>
+		<summary>In the near future, a weary Logan cares for an ailing Professor X in a hide out on the Mexican border. But Logan's attempts to hide from the world and his legacy are up-ended when a young mutant arrives, being pursued by dark forces.</summary>
+		<image_name>logan</image_name>
+	</Movie>
+	<Movie>
+		<title>Mad Max: Fury Road</title>
+		<categories>Action</categories>
+		<categories>Adventure</categories>
+		<categories>Sci-Fi</categories>
+		<duration>2h</duration>
+		<rating>8.1</rating>
+		<summary>A woman rebels against a tyrannical ruler in postapocalyptic Australia in search for her home-land with the help of a group of female prisoners, a psychotic worshipper, and a drifter named Max.</summary>
+		<image_name>madmax</image_name>
+	</Movie>
+	<Movie>
+		<title>Deadpool</title>
+		<categories>Action</categories>
+		<categories>Adventure</categories>
+		<categories>Comedy</categories>
+		<duration>1h 48min</duration>
+		<rating>8.1</rating>
+		<summary>A fast-talking mercenary with a morbid sense of humor is subjected to a rogue experiment that leaves him with accelerated healing powers and a quest for revenge.</summary>
+		<image_name>deadpool</image_name>
+	</Movie>
+	<Movie>
+		<title>Avengers: Age of Ultron</title>
+		<categories>Action</categories>
+		<categories>Adventure</categories>
+		<categories>Sci-Fi</categories>
+		<duration>2h 21min</duration>
+		<rating>7.4</rating>
+		<summary>When Tony Stark and Bruce Banner try to jump-start a dormant peacekeeping program called Ultron, things go horribly wrong and it's up to Earth's Mightiest Heroes to stop the villainous Ultron from enacting his terrible plans.</summary>
+		<image_name>avengersultron</image_name>
+	</Movie>
+	<Movie>
+		<title>Sully</title>
+		<categories>Biography</categories>
+		<categories>Drama</categories>
+		<duration>1h 36min</duration>
+		<rating>7.5</rating>
+		<summary>The story of Chesley Sullenberger, an American pilot who became a hero after landing his damaged plane on the Hudson River in order to save the flight's passengers and crew.</summary>
+		<image_name>sully</image_name>
+	</Movie>
+	<Movie>
+		<title>The LEGO Batman Movie</title>
+		<categories>Animation</categories>
+		<categories>Action</categories>
+		<categories>Adventure</categories>
+		<duration>1h 44min</duration>
+		<rating>7.7</rating>
+		<summary>Bruce Wayne must not only deal with the criminals of Gotham City, but also the responsibility of raising a boy he adopted.</summary>
+		<image_name>legobatman</image_name>
+	</Movie>
+	<Movie>
+		<title>Kong: Skull Island</title>
+		<categories>Action</categories>
+		<categories>Adventure</categories>
+		<categories>Fantasy</categories>
+		<duration>1h 58min</duration>
+		<rating>7.8</rating>
+		<summary>A team of explorers and soldiers travel to an uncharted island in the Pacific, unaware that they are crossing into the domain of monsters, including the mythic Kong.</summary>
+		<image_name>kongskull</image_name>
+	</Movie>
+	<Movie>
+		<title>Arrival</title>
+		<categories>Drama</categories>
+		<categories>Mystery</categories>
+		<categories>Sci-Fi</categories>
+		<duration>1h 56min</duration>
+		<rating>8</rating>
+		<summary>When twelve mysterious spacecraft appear around the world, linguistics professor Louise Banks is tasked with interpreting the language of the apparent alien visitors.</summary>
+		<image_name>arrival</image_name>
+	</Movie>
+	<Movie>
+		<title>Captain America: Civil War</title>
+		<categories>Action</categories>
+		<categories>Adventure</categories>
+		<categories>Sci-Fi</categories>
+		<duration>2h 27min</duration>
+		<rating>7.9</rating>
+		<summary>Political interference in the Avengers' activities causes a rift between former allies Captain America and Iron Man.</summary>
+		<image_name>civilwar</image_name>
+	</Movie>
+	<Movie>
+		<title>Rogue One</title>
+		<categories>Action</categories>
+		<categories>Adventure</categories>
+		<categories>Sci-Fi</categories>
+		<duration>2h 13min</duration>
+		<rating>8.1</rating>
+		<summary>The Rebel Alliance makes a risky move to steal the plans for the Death Star, setting up the epic saga to follow.</summary>
+		<image_name>rogueone</image_name>
+	</Movie>
+	<Movie>
+		<title>Doctor Strange</title>
+		<categories>Action</categories>
+		<categories>Adventure</categories>
+		<categories>Fantasy</categories>
+		<duration>1h 55min</duration>
+		<rating>7.7</rating>
+		<summary>A former neurosurgeon embarks on a journey of healing only to be drawn into the world of the mystic arts.</summary>
+		<image_name>doctorstrange</image_name>
+	</Movie>
+	<Movie>
+		<title>Suicide Squad</title>
+		<categories>Action</categories>
+		<categories>Adventure</categories>
+		<categories>Fantasy</categories>
+		<duration>2h 3min</duration>
+		<rating>6.3</rating>
+		<summary>A secret government agency recruits some of the most dangerous incarcerated super-villains to form a defensive task force. Their first mission: save the world from the apocalypse.</summary>
+		<image_name>suicidesquad</image_name>
+	</Movie>
+	<Movie>
+		<title>Batman v Superman: Dawn of Justice</title>
+		<categories>Action</categories>
+		<categories>Adventure</categories>
+		<categories>Sci-Fi</categories>
+		<duration>2h 31min</duration>
+		<rating>6.7</rating>
+		<summary>Fearing that the actions of Superman are left unchecked, Batman takes on the Man of Steel, while the world wrestles with what kind of a hero it really needs.</summary>
+		<image_name>batmanvsuperman</image_name>
+	</Movie>	
