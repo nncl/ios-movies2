@@ -12,6 +12,35 @@
 		07780D521E6D860E00BC3630 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 07780D501E6D860E00BC3630 /* Main.storyboard */; };
 		07780D541E6D860E00BC3630 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 07780D531E6D860E00BC3630 /* Assets.xcassets */; };
 		07780D571E6D860E00BC3630 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 07780D551E6D860E00BC3630 /* LaunchScreen.storyboard */; };
+		AC238E011E70BCAF00CFF282 /* MoviesTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC238E001E70BCAF00CFF282 /* MoviesTableViewController.swift */; };
+		AC238E031E70C8C700CFF282 /* movies.json in Resources */ = {isa = PBXBuildFile; fileRef = AC238E021E70C8C700CFF282 /* movies.json */; };
+		AC238E201E70C93A00CFF282 /* arrival-small.jpg in Resources */ = {isa = PBXBuildFile; fileRef = AC238E061E70C93A00CFF282 /* arrival-small.jpg */; };
+		AC238E211E70C93A00CFF282 /* arrival-wide.jpg in Resources */ = {isa = PBXBuildFile; fileRef = AC238E071E70C93A00CFF282 /* arrival-wide.jpg */; };
+		AC238E221E70C93A00CFF282 /* avengersultron-small.jpg in Resources */ = {isa = PBXBuildFile; fileRef = AC238E081E70C93A00CFF282 /* avengersultron-small.jpg */; };
+		AC238E231E70C93A00CFF282 /* avengersultron-wide.jpg in Resources */ = {isa = PBXBuildFile; fileRef = AC238E091E70C93A00CFF282 /* avengersultron-wide.jpg */; };
+		AC238E241E70C93A00CFF282 /* batmanvsuperman-small.jpg in Resources */ = {isa = PBXBuildFile; fileRef = AC238E0A1E70C93A00CFF282 /* batmanvsuperman-small.jpg */; };
+		AC238E251E70C93A00CFF282 /* batmanvsuperman-wide.jpg in Resources */ = {isa = PBXBuildFile; fileRef = AC238E0B1E70C93A00CFF282 /* batmanvsuperman-wide.jpg */; };
+		AC238E261E70C93A00CFF282 /* civilwar-small.jpg in Resources */ = {isa = PBXBuildFile; fileRef = AC238E0C1E70C93A00CFF282 /* civilwar-small.jpg */; };
+		AC238E271E70C93A00CFF282 /* civilwar-wide.jpg in Resources */ = {isa = PBXBuildFile; fileRef = AC238E0D1E70C93A00CFF282 /* civilwar-wide.jpg */; };
+		AC238E281E70C93A00CFF282 /* deadpool-small.jpg in Resources */ = {isa = PBXBuildFile; fileRef = AC238E0E1E70C93A00CFF282 /* deadpool-small.jpg */; };
+		AC238E291E70C93A00CFF282 /* deadpool-wide.jpg in Resources */ = {isa = PBXBuildFile; fileRef = AC238E0F1E70C93A00CFF282 /* deadpool-wide.jpg */; };
+		AC238E2A1E70C93A00CFF282 /* doctorstrange-small.jpg in Resources */ = {isa = PBXBuildFile; fileRef = AC238E101E70C93A00CFF282 /* doctorstrange-small.jpg */; };
+		AC238E2B1E70C93A00CFF282 /* doctorstrange-wide.jpg in Resources */ = {isa = PBXBuildFile; fileRef = AC238E111E70C93A00CFF282 /* doctorstrange-wide.jpg */; };
+		AC238E2C1E70C93A00CFF282 /* kongskull-small.jpg in Resources */ = {isa = PBXBuildFile; fileRef = AC238E121E70C93A00CFF282 /* kongskull-small.jpg */; };
+		AC238E2D1E70C93A00CFF282 /* kongskull-wide.jpg in Resources */ = {isa = PBXBuildFile; fileRef = AC238E131E70C93A00CFF282 /* kongskull-wide.jpg */; };
+		AC238E2E1E70C93A00CFF282 /* legobatman-small.jpg in Resources */ = {isa = PBXBuildFile; fileRef = AC238E141E70C93A00CFF282 /* legobatman-small.jpg */; };
+		AC238E2F1E70C93A00CFF282 /* legobatman-wide.jpg in Resources */ = {isa = PBXBuildFile; fileRef = AC238E151E70C93A00CFF282 /* legobatman-wide.jpg */; };
+		AC238E301E70C93A00CFF282 /* logan-small.jpg in Resources */ = {isa = PBXBuildFile; fileRef = AC238E161E70C93A00CFF282 /* logan-small.jpg */; };
+		AC238E311E70C93A00CFF282 /* logan-wide.jpg in Resources */ = {isa = PBXBuildFile; fileRef = AC238E171E70C93A00CFF282 /* logan-wide.jpg */; };
+		AC238E321E70C93A00CFF282 /* madmax-small.jpg in Resources */ = {isa = PBXBuildFile; fileRef = AC238E181E70C93A00CFF282 /* madmax-small.jpg */; };
+		AC238E331E70C93A00CFF282 /* madmax-wide.jpg in Resources */ = {isa = PBXBuildFile; fileRef = AC238E191E70C93A00CFF282 /* madmax-wide.jpg */; };
+		AC238E341E70C93A00CFF282 /* rogueone-small.jpg in Resources */ = {isa = PBXBuildFile; fileRef = AC238E1A1E70C93A00CFF282 /* rogueone-small.jpg */; };
+		AC238E351E70C93A00CFF282 /* rogueone-wide.jpg in Resources */ = {isa = PBXBuildFile; fileRef = AC238E1B1E70C93A00CFF282 /* rogueone-wide.jpg */; };
+		AC238E361E70C93A00CFF282 /* suicidesquad-small.jpg in Resources */ = {isa = PBXBuildFile; fileRef = AC238E1C1E70C93A00CFF282 /* suicidesquad-small.jpg */; };
+		AC238E371E70C93A00CFF282 /* suicidesquad-wide.jpg in Resources */ = {isa = PBXBuildFile; fileRef = AC238E1D1E70C93A00CFF282 /* suicidesquad-wide.jpg */; };
+		AC238E381E70C93A00CFF282 /* sully-small.jpg in Resources */ = {isa = PBXBuildFile; fileRef = AC238E1E1E70C93A00CFF282 /* sully-small.jpg */; };
+		AC238E391E70C93A00CFF282 /* sully-wide.jpg in Resources */ = {isa = PBXBuildFile; fileRef = AC238E1F1E70C93A00CFF282 /* sully-wide.jpg */; };
+		AC238E3C1E70CA2700CFF282 /* Movie.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC238E3B1E70CA2700CFF282 /* Movie.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +51,35 @@
 		07780D531E6D860E00BC3630 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		07780D561E6D860E00BC3630 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		07780D581E6D860E00BC3630 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AC238E001E70BCAF00CFF282 /* MoviesTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MoviesTableViewController.swift; sourceTree = "<group>"; };
+		AC238E021E70C8C700CFF282 /* movies.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = movies.json; sourceTree = "<group>"; };
+		AC238E061E70C93A00CFF282 /* arrival-small.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "arrival-small.jpg"; sourceTree = "<group>"; };
+		AC238E071E70C93A00CFF282 /* arrival-wide.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "arrival-wide.jpg"; sourceTree = "<group>"; };
+		AC238E081E70C93A00CFF282 /* avengersultron-small.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "avengersultron-small.jpg"; sourceTree = "<group>"; };
+		AC238E091E70C93A00CFF282 /* avengersultron-wide.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "avengersultron-wide.jpg"; sourceTree = "<group>"; };
+		AC238E0A1E70C93A00CFF282 /* batmanvsuperman-small.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "batmanvsuperman-small.jpg"; sourceTree = "<group>"; };
+		AC238E0B1E70C93A00CFF282 /* batmanvsuperman-wide.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "batmanvsuperman-wide.jpg"; sourceTree = "<group>"; };
+		AC238E0C1E70C93A00CFF282 /* civilwar-small.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "civilwar-small.jpg"; sourceTree = "<group>"; };
+		AC238E0D1E70C93A00CFF282 /* civilwar-wide.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "civilwar-wide.jpg"; sourceTree = "<group>"; };
+		AC238E0E1E70C93A00CFF282 /* deadpool-small.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "deadpool-small.jpg"; sourceTree = "<group>"; };
+		AC238E0F1E70C93A00CFF282 /* deadpool-wide.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "deadpool-wide.jpg"; sourceTree = "<group>"; };
+		AC238E101E70C93A00CFF282 /* doctorstrange-small.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "doctorstrange-small.jpg"; sourceTree = "<group>"; };
+		AC238E111E70C93A00CFF282 /* doctorstrange-wide.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "doctorstrange-wide.jpg"; sourceTree = "<group>"; };
+		AC238E121E70C93A00CFF282 /* kongskull-small.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "kongskull-small.jpg"; sourceTree = "<group>"; };
+		AC238E131E70C93A00CFF282 /* kongskull-wide.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "kongskull-wide.jpg"; sourceTree = "<group>"; };
+		AC238E141E70C93A00CFF282 /* legobatman-small.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "legobatman-small.jpg"; sourceTree = "<group>"; };
+		AC238E151E70C93A00CFF282 /* legobatman-wide.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "legobatman-wide.jpg"; sourceTree = "<group>"; };
+		AC238E161E70C93A00CFF282 /* logan-small.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "logan-small.jpg"; sourceTree = "<group>"; };
+		AC238E171E70C93A00CFF282 /* logan-wide.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "logan-wide.jpg"; sourceTree = "<group>"; };
+		AC238E181E70C93A00CFF282 /* madmax-small.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "madmax-small.jpg"; sourceTree = "<group>"; };
+		AC238E191E70C93A00CFF282 /* madmax-wide.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "madmax-wide.jpg"; sourceTree = "<group>"; };
+		AC238E1A1E70C93A00CFF282 /* rogueone-small.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "rogueone-small.jpg"; sourceTree = "<group>"; };
+		AC238E1B1E70C93A00CFF282 /* rogueone-wide.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "rogueone-wide.jpg"; sourceTree = "<group>"; };
+		AC238E1C1E70C93A00CFF282 /* suicidesquad-small.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "suicidesquad-small.jpg"; sourceTree = "<group>"; };
+		AC238E1D1E70C93A00CFF282 /* suicidesquad-wide.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "suicidesquad-wide.jpg"; sourceTree = "<group>"; };
+		AC238E1E1E70C93A00CFF282 /* sully-small.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "sully-small.jpg"; sourceTree = "<group>"; };
+		AC238E1F1E70C93A00CFF282 /* sully-wide.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "sully-wide.jpg"; sourceTree = "<group>"; };
+		AC238E3B1E70CA2700CFF282 /* Movie.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Movie.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,14 +112,51 @@
 		07780D4B1E6D860E00BC3630 /* MoviesLib */ = {
 			isa = PBXGroup;
 			children = (
+				AC238E3A1E70C94300CFF282 /* images */,
+				AC238E021E70C8C700CFF282 /* movies.json */,
 				07780D4C1E6D860E00BC3630 /* AppDelegate.swift */,
 				07780D4E1E6D860E00BC3630 /* MovieViewController.swift */,
 				07780D501E6D860E00BC3630 /* Main.storyboard */,
+				AC238E001E70BCAF00CFF282 /* MoviesTableViewController.swift */,
+				AC238E3B1E70CA2700CFF282 /* Movie.swift */,
 				07780D531E6D860E00BC3630 /* Assets.xcassets */,
 				07780D551E6D860E00BC3630 /* LaunchScreen.storyboard */,
 				07780D581E6D860E00BC3630 /* Info.plist */,
 			);
 			path = MoviesLib;
+			sourceTree = "<group>";
+		};
+		AC238E3A1E70C94300CFF282 /* images */ = {
+			isa = PBXGroup;
+			children = (
+				AC238E061E70C93A00CFF282 /* arrival-small.jpg */,
+				AC238E071E70C93A00CFF282 /* arrival-wide.jpg */,
+				AC238E081E70C93A00CFF282 /* avengersultron-small.jpg */,
+				AC238E091E70C93A00CFF282 /* avengersultron-wide.jpg */,
+				AC238E0A1E70C93A00CFF282 /* batmanvsuperman-small.jpg */,
+				AC238E0B1E70C93A00CFF282 /* batmanvsuperman-wide.jpg */,
+				AC238E0C1E70C93A00CFF282 /* civilwar-small.jpg */,
+				AC238E0D1E70C93A00CFF282 /* civilwar-wide.jpg */,
+				AC238E0E1E70C93A00CFF282 /* deadpool-small.jpg */,
+				AC238E0F1E70C93A00CFF282 /* deadpool-wide.jpg */,
+				AC238E101E70C93A00CFF282 /* doctorstrange-small.jpg */,
+				AC238E111E70C93A00CFF282 /* doctorstrange-wide.jpg */,
+				AC238E121E70C93A00CFF282 /* kongskull-small.jpg */,
+				AC238E131E70C93A00CFF282 /* kongskull-wide.jpg */,
+				AC238E141E70C93A00CFF282 /* legobatman-small.jpg */,
+				AC238E151E70C93A00CFF282 /* legobatman-wide.jpg */,
+				AC238E161E70C93A00CFF282 /* logan-small.jpg */,
+				AC238E171E70C93A00CFF282 /* logan-wide.jpg */,
+				AC238E181E70C93A00CFF282 /* madmax-small.jpg */,
+				AC238E191E70C93A00CFF282 /* madmax-wide.jpg */,
+				AC238E1A1E70C93A00CFF282 /* rogueone-small.jpg */,
+				AC238E1B1E70C93A00CFF282 /* rogueone-wide.jpg */,
+				AC238E1C1E70C93A00CFF282 /* suicidesquad-small.jpg */,
+				AC238E1D1E70C93A00CFF282 /* suicidesquad-wide.jpg */,
+				AC238E1E1E70C93A00CFF282 /* sully-small.jpg */,
+				AC238E1F1E70C93A00CFF282 /* sully-wide.jpg */,
+			);
+			name = images;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -123,9 +218,36 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AC238E381E70C93A00CFF282 /* sully-small.jpg in Resources */,
+				AC238E2E1E70C93A00CFF282 /* legobatman-small.jpg in Resources */,
 				07780D571E6D860E00BC3630 /* LaunchScreen.storyboard in Resources */,
+				AC238E2D1E70C93A00CFF282 /* kongskull-wide.jpg in Resources */,
+				AC238E261E70C93A00CFF282 /* civilwar-small.jpg in Resources */,
+				AC238E331E70C93A00CFF282 /* madmax-wide.jpg in Resources */,
+				AC238E321E70C93A00CFF282 /* madmax-small.jpg in Resources */,
+				AC238E301E70C93A00CFF282 /* logan-small.jpg in Resources */,
+				AC238E291E70C93A00CFF282 /* deadpool-wide.jpg in Resources */,
 				07780D541E6D860E00BC3630 /* Assets.xcassets in Resources */,
+				AC238E2F1E70C93A00CFF282 /* legobatman-wide.jpg in Resources */,
+				AC238E371E70C93A00CFF282 /* suicidesquad-wide.jpg in Resources */,
+				AC238E221E70C93A00CFF282 /* avengersultron-small.jpg in Resources */,
+				AC238E231E70C93A00CFF282 /* avengersultron-wide.jpg in Resources */,
+				AC238E281E70C93A00CFF282 /* deadpool-small.jpg in Resources */,
+				AC238E031E70C8C700CFF282 /* movies.json in Resources */,
+				AC238E251E70C93A00CFF282 /* batmanvsuperman-wide.jpg in Resources */,
+				AC238E341E70C93A00CFF282 /* rogueone-small.jpg in Resources */,
+				AC238E271E70C93A00CFF282 /* civilwar-wide.jpg in Resources */,
+				AC238E2B1E70C93A00CFF282 /* doctorstrange-wide.jpg in Resources */,
+				AC238E391E70C93A00CFF282 /* sully-wide.jpg in Resources */,
+				AC238E361E70C93A00CFF282 /* suicidesquad-small.jpg in Resources */,
+				AC238E241E70C93A00CFF282 /* batmanvsuperman-small.jpg in Resources */,
+				AC238E2A1E70C93A00CFF282 /* doctorstrange-small.jpg in Resources */,
+				AC238E2C1E70C93A00CFF282 /* kongskull-small.jpg in Resources */,
 				07780D521E6D860E00BC3630 /* Main.storyboard in Resources */,
+				AC238E211E70C93A00CFF282 /* arrival-wide.jpg in Resources */,
+				AC238E311E70C93A00CFF282 /* logan-wide.jpg in Resources */,
+				AC238E351E70C93A00CFF282 /* rogueone-wide.jpg in Resources */,
+				AC238E201E70C93A00CFF282 /* arrival-small.jpg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -136,7 +258,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AC238E011E70BCAF00CFF282 /* MoviesTableViewController.swift in Sources */,
 				07780D4F1E6D860E00BC3630 /* MovieViewController.swift in Sources */,
+				AC238E3C1E70CA2700CFF282 /* Movie.swift in Sources */,
 				07780D4D1E6D860E00BC3630 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
