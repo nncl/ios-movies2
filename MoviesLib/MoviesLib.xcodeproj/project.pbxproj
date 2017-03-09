@@ -41,6 +41,7 @@
 		AC238E381E70C93A00CFF282 /* sully-small.jpg in Resources */ = {isa = PBXBuildFile; fileRef = AC238E1E1E70C93A00CFF282 /* sully-small.jpg */; };
 		AC238E391E70C93A00CFF282 /* sully-wide.jpg in Resources */ = {isa = PBXBuildFile; fileRef = AC238E1F1E70C93A00CFF282 /* sully-wide.jpg */; };
 		AC238E3C1E70CA2700CFF282 /* Movie.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC238E3B1E70CA2700CFF282 /* Movie.swift */; };
+		AC238E3E1E70DAA100CFF282 /* MovieTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC238E3D1E70DAA100CFF282 /* MovieTableViewCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -80,6 +81,7 @@
 		AC238E1E1E70C93A00CFF282 /* sully-small.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "sully-small.jpg"; sourceTree = "<group>"; };
 		AC238E1F1E70C93A00CFF282 /* sully-wide.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "sully-wide.jpg"; sourceTree = "<group>"; };
 		AC238E3B1E70CA2700CFF282 /* Movie.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Movie.swift; sourceTree = "<group>"; };
+		AC238E3D1E70DAA100CFF282 /* MovieTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MovieTableViewCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -117,6 +119,7 @@
 				07780D4C1E6D860E00BC3630 /* AppDelegate.swift */,
 				07780D4E1E6D860E00BC3630 /* MovieViewController.swift */,
 				07780D501E6D860E00BC3630 /* Main.storyboard */,
+				AC238E3D1E70DAA100CFF282 /* MovieTableViewCell.swift */,
 				AC238E001E70BCAF00CFF282 /* MoviesTableViewController.swift */,
 				AC238E3B1E70CA2700CFF282 /* Movie.swift */,
 				07780D531E6D860E00BC3630 /* Assets.xcassets */,
@@ -258,6 +261,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AC238E3E1E70DAA100CFF282 /* MovieTableViewCell.swift in Sources */,
 				AC238E011E70BCAF00CFF282 /* MoviesTableViewController.swift in Sources */,
 				07780D4F1E6D860E00BC3630 /* MovieViewController.swift in Sources */,
 				AC238E3C1E70CA2700CFF282 /* Movie.swift in Sources */,

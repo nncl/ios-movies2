@@ -10,47 +10,7 @@ import UIKit
 
 class MoviesTableViewController: UITableViewController {
     
-    var dataSource: [(String?, Double?)] = [
-        ("E o vento levou", 10.0),
-        ("Titanic", 9.6),
-        ("Matrix", 10.0),
-        ("Homem Aranha", 8.5),
-        ("Meu Malvado Favorito", 10.0),
-        ("Logan", 9.0),
-        ("Shrek", 10.0),
-        ("Up: Altas Aventuras", 5.0),
-        ("Shrek 2", 7.0),
-        
-        (nil, 10.0),
-        ("Titanic 2", 9.6),
-        ("Matrix 2", 10.0),
-        ("Homem Aranha 2", 8.5),
-        ("Meu Malvado Favorito 2", 10.0),
-        ("Logan 2", 9.0),
-        ("Shrek 2", 10.0),
-        ("Up: Altas Aventuras 2", 5.0),
-        ("Shrek 2 2", 7.0),
-        ("E o vento levou", nil),
-        ("Titanic", 9.6),
-        ("Matrix", 10.0),
-        ("Homem Aranha", 8.5),
-        (nil, 10.0),
-        ("Logan", 9.0),
-        ("Shrek", 10.0),
-        ("Up: Altas Aventuras", 5.0),
-        ("Shrek 2", 7.0),
-        
-        ("E o vento levou 2", 10.0),
-        ("Titanic 2", 9.6),
-        ("Matrix 2", 10.0),
-        ("Homem Aranha 2", 8.5),
-        ("Meu Malvado Favorito 2", 10.0),
-        ("Logan 2", 9.0),
-        ("Shrek 2", 10.0),
-        ("Up: Altas Aventuras 2", nil),
-        ("Shrek 2 2", nil),
-        ("Shrek 300", 10.0),
-    ]
+    var dataSource: [Movie] = []
 
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -60,11 +20,49 @@ class MoviesTableViewController: UITableViewController {
 
         // Uncomment the following line to display an Edit button in the navigation bar for this view controller.
         // self.navigationItem.rightBarButtonItem = self.editButtonItem()
+        
+        tableView.estimatedRowHeight = 106
+        tableView.rowHeight = UITableViewAutomaticDimension
+        
+        loadLocalContent()
     }
 
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.
+    }
+    
+    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
+        let vc = segue.destination as! MovieViewController
+        vc.movie = dataSource[tableView.indexPathForSelectedRow!.row]
+    }
+    
+    // MARK: - Methods
+    func loadLocalContent() {
+        // GET JSON file - get access to bundle
+        if let jsonURL = Bundle.main.url(forResource: "movies", withExtension: "json") {
+            let data: Data = try! Data(contentsOf: jsonURL) // file content
+            let json = try! JSONSerialization.jsonObject(with: data, options: JSONSerialization.ReadingOptions()) as! [[String: Any]]
+            
+            // Parse content
+            for item in json {
+                let title = item["title"] as! String
+                let duration = item["duration"] as! String
+                let summary = item["summary"] as! String
+                let imageName = item["image_name"] as! String
+                let rating = item["rating"] as! Double
+                
+                let movie = Movie(title: title, rating: rating, summary: summary, duration: duration, imageName: imageName)
+                
+                movie.categories = item["categories"] as! [String]
+                
+                dataSource.append(movie)
+            }
+            
+            // Reload data because it's new
+            tableView.reloadData()
+        }
+        
     }
 
     // MARK: - Table view data source
@@ -85,20 +83,14 @@ class MoviesTableViewController: UITableViewController {
     // IndexPath has two infos: section and role
     override func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
         let cell = tableView.dequeueReusableCell(withIdentifier: "movieCell", for: indexPath)
+            as! MovieTableViewCell
 
         // Let's put info into our cell
         
-        if let title = dataSource[indexPath.row].0 {
-            cell.textLabel?.text = title
-        } else {
-            cell.textLabel?.text = "" // CLEAN, OTHERWISE IT WILL GET THE EARLIER INFORMATION
-        }
-        
-        if let rating = dataSource[indexPath.row].1 {
-            cell.detailTextLabel?.text = "\(rating)"
-        } else {
-            cell.detailTextLabel?.text = "" // AS WELL AS HERE
-        }
+        cell.ivPoster.image = UIImage(named: dataSource[indexPath.row].imageSmall)
+        cell.lbTitle.text = dataSource[indexPath.row].title
+        cell.lbSummary.text = dataSource[indexPath.row].summary
+        cell.lbRating.text = "\(dataSource[indexPath.row].rating)"
 
         return cell
     }
