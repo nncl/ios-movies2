@@ -24,6 +24,11 @@ class MoviesTableViewController: UITableViewController {
         tableView.estimatedRowHeight = 106
         tableView.rowHeight = UITableViewAutomaticDimension
         
+        let label = UILabel(frame: CGRect(x:0, y:0, width: 200, height: 22))
+        label.text = "Sem filmes"
+        label.textAlignment = .center
+        label.textColor = .white
+        tableView.backgroundView = label
         loadLocalContent()
     }
 
@@ -60,6 +65,7 @@ class MoviesTableViewController: UITableViewController {
             }
             
             // Reload data because it's new
+            tableView.backgroundView = nil
             tableView.reloadData()
         }
         
